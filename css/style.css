@@ -44,6 +44,16 @@ header {
   border: 1px solid;
 }
 
+.about-us {
+  min-height: 400px;
+}
+
+.about-content {
+  min-height: 200px;
+  border: 1px solid;
+  width: 800px;
+}
+
 .contact-content {
   border: 1px solid;
 }
