@@ -6,64 +6,57 @@
 
 body {
   font-family: sans-serif;
-  /* background-color: dodgerblue; */
 }
 
-header {
-  height: 100px;
+img {
+  max-width: 100%;
+}
+
+/* BGC */
+.bgc-b {
   background-color: #2c3e50;
 }
 
-.jumbo-section {
-  background-color: #1abc9c;
-}
-.jumbotron {
-  height: 400px;
+/* Color */
+.clr-w {
+  color: white;
 }
 
-.jumbo-content {
-  height: 200px;
-  border: 1px solid;
-  width: 400px;
+#jumbotron {
+  background-color: #1abc9c;
+  height: 300px;
+}
+
+.avatar {
+  height: 300px;
 }
 
 .row {
-  /* min-height: 500px; */
-  background-color: white;
 }
 
 .col {
-  min-height: 300px;
+  /* min-height: 300px;
   border: 1px solid;
-  background-color: red;
+  background-color: red; */
 }
 
-.about {
-  min-height: 400px;
+#about {
   background-color: #1abc9c;
-  border: 1px solid;
-}
-
-.about-us {
   min-height: 400px;
-}
-
-.about-content {
-  min-height: 200px;
-  border: 1px solid;
-  width: 800px;
-}
-
-.contact-content {
-  border: 1px solid;
-}
-
-.ftr-col {
-  height: 250px;
-  background-color: #3a546d;
 }
 
 .footer-bottom {
   height: 100px;
   background-color: #2c3e50;
+}
+*/ .footer {
+  background-color: #3a546d;
+}
+
+.footer-bottom {
+  background-color: #2c3e50;
+}
+
+section {
+  min-height: 500px;
 }

@@ -14,38 +14,95 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="container-fluid border"></header>
     <main>
-      <section class="jumbo-section mb-5">
-        <div
-          class="jumbotron container border d-flex justify-content-center align-items-center"
-        >
-          <div class="jumbo-content"></div>
-        </div>
-      </section>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bgc-b py-4">
+          <div class="container">
+            <a class="navbar-brand text-white" href="#">START BOOTSTRAP</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon clr-w"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
 
-      <section class="portfolio mb-5">
-        <div class="deck container border">
-          <h1 class="text-center">PORFOLIO</h1>
-          <div class="row row-cols-1 row-cols-xl-2 row-cols-xxl-3 gy-4">
-            <div class="col rounded"></div>
-            <div class="col rounded">Cose</div>
-            <div class="col rounded">Cose</div>
-            <div class="col rounded">Cose</div>
-            <div class="col rounded">Cose</div>
-            <div class="col rounded">Cose</div>
+      <section id="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col d-flex flex-column align-items-center text-white">
+              <img src="./img/avatar.svg" alt="" class="avatar" />
+              <h1>START BOOSTRAP</h1>
+              <h5>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h5>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="about mb-5">
-        <div
-          class="about-us container border d-flex justify-content-center align-items-center"
-        >
-          <div class="about-content container">
-            <div class="row-about row-cols-2 row-cols-xl-1">
-              <div class="col w-100"></div>
-              <div class="col w-100"></div>
+      <section class="portfolio mb-5">
+        <div class="deck container">
+          <h1 class="text-center">PORFOLIO</h1>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+            <div class="col rounded"><img src="./img/cabin.png" alt="" /></div>
+            <div class="col rounded"><img src="./img/cake.png" alt="" /></div>
+            <div class="col rounded"><img src="./img/circus.png" alt="" /></div>
+            <div class="col rounded"><img src="./img/game.png" alt="" /></div>
+            <div class="col rounded"><img src="./img/safe.png" alt="" /></div>
+            <div class="col rounded">
+              <img src="./img/submarine.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="container d-flex flex-column align-items-center text-white">
+          <div class="row">
+            <div class="col">
+              <h2>ABOUT</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="offset-1 col-10 col-md-5">
+              <p>
+                Freelancer is a free bootstrap theme created by Start Bootstrap.
+                The download includes the complete source files including HTML,
+                CSS and JavaScript as well as optional LESS stylesheets for easy
+                customization.
+              </p>
+            </div>
+            <div class="offset-1 col-10 col-md-5">
+              <p>
+                Whether you're a student looking to showcase your work, a
+                professional looking to attract clients, or a graphic artist
+                looking to share your projects, this template is the perfetc
+                starting point!
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <button>DOWNLOAD</button>
             </div>
           </div>
         </div>
@@ -71,7 +128,7 @@
     </main>
 
     <footer>
-      <div class="footer-top container-fluid">
+      <!-- <div class="footer-top container-fluid">
         <div class="row row-cols-1 row-cols-xl-3">
           <div class="col ftr-col"></div>
           <div class="col ftr-col"></div>
@@ -80,6 +137,18 @@
       </div>
       <div class="footer-bottom text-center align-bottom">
         <p>cose</p>
+      </div> -->
+      <div class="footer-top container">
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col">Location</div>
+          <div class="col">Around</div>
+          <div class="col">Abouth</div>
+        </div>
+      </div>
+      <div class="footer-bottom container-fluid">
+        <div class="row">
+          <div class="col">Cose</div>
+        </div>
       </div>
     </footer>
   </body>
