@@ -22,12 +22,13 @@
   </head>
   <body>
     <main>
+      <!-- Header -->
       <header>
         <nav class="navbar navbar-expand-lg navbar-light bgc-b py-4">
           <div class="container">
             <a class="navbar-brand text-white" href="#">START BOOTSTRAP</a>
             <button
-              class="navbar-toggler"
+              class="navbar-toggler clr-w"
               type="button"
               data-toggle="collapse"
               data-target="#navbarNav"
@@ -54,6 +55,7 @@
         </nav>
       </header>
 
+      <!-- Jumbotron -->
       <section id="jumbotron">
         <div class="container">
           <div class="row">
@@ -62,7 +64,7 @@
               <h1 class="mb-3 txt-bld">START BOOSTRAP</h1>
               <div class="mb-3 d-flex align-items-center">
                 <div class="mini-divisor me-3"></div>
-                <div class="star"><i class="fa-solid fa-star fa-2xl"></i></i></div>
+                <div class="star"><i class="fa-solid fa-star fa-2xl"></i></div>
                 <div class="mini-divisor ms-3"></div>
               </div>
               <h5 class="mb-5">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h5>
@@ -71,10 +73,17 @@
         </div>
       </section>
 
+      <!-- Porfolio -->
       <section class="portfolio">
         <div class="deck container">
           <h1 class="text-center mt-5 mb-3 txt-bld">PORFOLIO</h1>
-          <div class="mb-3"></div>
+          <div
+            class="mb-3 d-flex align-items-center justify-content-center mb-3"
+          >
+            <div class="mini-divisor me-3"></div>
+            <div class="star"><i class="fa-solid fa-star fa-2xl"></i></div>
+            <div class="mini-divisor ms-3"></div>
+          </div>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mb-5">
             <div class="col">
               <img src="./img/cabin.png" alt="" class="rounded" />
@@ -98,6 +107,7 @@
         </div>
       </section>
 
+      <!-- About -->
       <section id="about">
         <div
           class="container d-flex flex-column align-items-center text-white text-center"
@@ -107,7 +117,7 @@
               <h2 class="mt-5 mb-3 txt-bld">ABOUT</h2>
               <div class="mb-3 d-flex align-items-center">
                 <div class="mini-divisor me-3"></div>
-                <div class="star"><i class="fa-solid fa-star fa-2xl"></i></i></div>
+                <div class="star"><i class="fa-solid fa-star fa-2xl"></i></div>
                 <div class="mini-divisor ms-3"></div>
               </div>
             </div>
@@ -140,50 +150,53 @@
         </div>
       </section>
 
+      <!-- Contacts -->
       <section id="contacts">
         <div class="container">
           <div class="row">
-            <div class="col text-center clr-blk ">
-            <h2 class="txt-bld mt-5 mb-3">CONTACT ME</h2>
-            <div class="mb-3 d-flex align-items-center justify-content-center mb-3">
-              <div class="mini-divisor me-3"></div>
-              <div class="star"><i class="fa-solid fa-star fa-2xl"></i></i></div>
-              <div class="mini-divisor ms-3"></div>
-            </div>
+            <div class="col text-center clr-blk">
+              <h2 class="txt-bld mt-5 mb-3">CONTACT ME</h2>
+              <div
+                class="mb-3 d-flex align-items-center justify-content-center mb-3"
+              >
+                <div class="mini-divisor me-3"></div>
+                <div class="star"><i class="fa-solid fa-star fa-2xl"></i></div>
+                <div class="mini-divisor ms-3"></div>
+              </div>
             </div>
           </div>
           <div class="row justify-content-center">
-           <div class="col col-10">
-            
-            <div class="mb-3">
-              <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name">
+            <div class="col col-10">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" />
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="5"></textarea>
+              </div>
+              <button class="btn btn-success mb-5 bgc-grn">SEND</button>
             </div>
-            
-            <div class="mb-3">
-              <label for="email" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="email">
-            </div>
-            <div class="mb-3">
-              <label for="phone" class="form-label">Phone Number</label>
-              <input type="tel" class="form-control" id="phone">
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" rows="5"></textarea>
-            </div>
-            <button class="btn btn-success mb-5 bgc-grn">SEND</button>
-           </div>
           </div>
         </div>
-
       </section>
     </main>
 
     <!-- FOOTER -->
     <footer>
-      <div class="footer-top container d-flex align-items-center">
-        <div class="row row-cols-1 row-cols-md-3 text-white text-center">
+      <div class="footer-top container">
+        <div
+          class="row row-cols-1 row-cols-md-3 text-white text-center align-items-center h-100"
+        >
           <div class="col">
             <h4>LOCATION</h4>
             <p>2215 John Daniel Drive Clack,MO 54243</p>
@@ -224,6 +237,7 @@
           </div>
         </div>
       </div>
+      <!-- Footer Bottom -->
       <div class="footer-bottom container-fluid">
         <div class="row">
           <div class="col text-center text-white mt-4">
